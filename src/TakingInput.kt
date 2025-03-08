@@ -9,9 +9,9 @@ fun main() {
     * */
     anotherMethod()
     val name: String? =
-        readLine() // that question mark is for null safty and
-    // we put string just to make sure that it is string but it is useless becuase by default it ttake as string
-    val age = readLine() // that question mark is for null safty and
+        readLine() // that question mark is for null safety and
+    // we put string just to make sure that it is string, but it is useless because by default it take as string
+    val age = readLine() // that question mark is for null safety and
     //How to check the datatype of it
     println(name)
     println(name!!::class.simpleName)
