@@ -16,7 +16,7 @@ abstract class Father1 {
         println("Father car: $car")
     }
 
-    // Abtract methods
+    // Abstract methods
     abstract fun hello()  // whenever we create the abstract class
 // we keep the body of it as empty so that we can fill it in the child class
 
@@ -33,10 +33,10 @@ class Child1 : Father1() {
 }
 
 fun main() {
-    var obj = Child1()
+    val obj = Child1()
     obj.show()
     obj.disp()
-
+    obj.hello()
 //    var obj1 = Father1() We can not do this as it is abstract class
 
 }
