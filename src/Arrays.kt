@@ -76,7 +76,7 @@ fun main() {
     * till the size of it and passing the updated value to that callback function and creating the new array
     *
     * There are some of the Other factory methods available for creating arrays:
-    *
+    *   intArrayOf()
     *   byteArrayOf()
     *   charArrayOf()
     *   shortArrayOf()

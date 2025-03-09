@@ -40,7 +40,7 @@ fun main() {
     println(data3)
     println("<---- Updating the value of map ----->")
     data3["Age"] = 24
-    data3.put("Age", 25) // D=using .put method .put(<key>,value>)
+    data3.put("Age", 25) // using .put method .put(<key>,value>)
     println(data3)
     println("<---- Adding the value into map ----->")
     data3["Roll"] = 1029
