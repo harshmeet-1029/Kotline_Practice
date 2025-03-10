@@ -10,7 +10,7 @@ Visibility Modifier
 
 open class Father {
     private var a = 1 // It will not at all accessible outside this class even if i inheatrete  it
-    var b = 1 // It can be accessible in this class and in child class but not outside of it
+    protected var b = 1 // It can be accessible in this class and in child class but not outside of it
     internal var c = 1 // It can be accessible anywhere in this module but not anywhere else
     var d = 1
 
